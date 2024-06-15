@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" >
+</head>
+<body>
+<div id="main_div">
+    <form id="customer_form">
+        <label for="fname">First name:</label><br>
+        <input type="text" class="input_form" value="Your Name"><br>
+        <label for="lname">Gender:</label><br>
+        <input type="text" class="input_form" name="lname" value="Your Gender"><br>
+        <label for="lname">Age:</label><br>
+        <input type="text" class="input_form" name="lname" value="Your Age"><br>
+        <label for="myfile">Select a file:</label><br>
+        <input type="file" id="file_input" name="myfile"><br>
+        <label for="lname">Country:</label><br>
+        <input type="text" class="input_form" name="lname" value="Your Country"><br>
+        <input type="submit" value="Submit" id="submit_button">
+      </form> 
+
+
+        <table id="customers">
+            <tr>
+                <th class="table_heading">Profile</th>
+                <th class="table_heading">Name</th>
+                <th class="table_heading">Gender</th>
+                <th class="table_heading">Age</th>
+                <th class="table_heading">Country</th>
+                <th  class="table_heading">Delete</th>
+                <th class="table_heading">Update</th>
+            </tr>
+            <tr>
+                <td class="table_data"><img src="images/girl.jfif" ></td>
+                <td class="table_data">Diana</td>
+                <td class="table_data">female</td>
+                <td class="table_data">25</td>
+                <td class="table_data">USA</td>
+                <td class="table_data"><button>Delete</button></td>
+                <td class="table_data"><button>Update</button></td>
+            </tr>
+
+            <tr>
+                <td class="table_data"><img src="images/girl.jfif" ></td>
+                <td class="table_data">James</td>
+                <td class="table_data">Male</td>
+                <td class="table_data">25</td>
+                <td class="table_data">USA</td>
+                <td class="table_data"><button>Delete</button></td>
+                <td class="table_data"><button>Update</button></td>
+            </tr>
+
+            <tr>
+                <td class="table_data"><img src="images/girl.jfif" ></td>
+                <td class="table_data">James</td>
+                <td class="table_data">Male</td>
+                <td class="table_data">25</td>
+                <td class="table_data">USA</td>
+                <td class="table_data"><button>Delete</button></td>
+                <td class="table_data"><button>Update</button></td>
+            </tr>
+
+            </table>
+
+</div>
+
+
+
+
+    <script src="dist/bundle.js" type="module" ></script>
+</body>
+</html>

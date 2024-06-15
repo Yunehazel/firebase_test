@@ -1,0 +1,84 @@
+
+
+.table_heading{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04aa6d !important;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+  }
+
+.table_data{
+    /* background-color: #727270; */
+    text-align: center;
+    border: 1px solid black;
+   padding: 20px;
+   
+}
+
+    #customers{
+        border-collapse: collapse;
+        width: 50%;
+        padding: 0px !important;
+        margin: 0px !important;
+        
+    }
+
+   #customers tr{
+    padding: 0px !important;
+    margin: 0px !important;
+   }
+
+   .table_data img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    padding: 0px !important;
+   margin: 0px !important;
+   }
+
+  .table_data button{
+    padding: 15px;
+    background-color: #04aa6d;
+    border: 1px solid #04aa6d;
+    border-radius: 10px ;
+    color: white;
+  }
+
+
+ #main_div{
+    width: 100%;
+    display: flex;
+ }
+
+ #customer_form{
+    width: 50%;
+    margin-left: 30px;
+ }
+
+  .input_form{
+    padding: 10px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(170, 168, 168);
+  }
+
+  #file_input{
+    border: 1px solid #04aa6d;
+    background-color: #04aa6d;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0px;
+  }
+
+  #submit_button{
+    border: 1px solid #04aa6d;
+    background-color: #04aa6d;
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+  }
